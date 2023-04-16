@@ -1,0 +1,39 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+    <style>
+        
+    </style>
+</head>
+
+<body >
+    <div class="container mt-5">
+        <form class="form-signin">
+            <img class="mb-4" src="signin.png" alt="">
+        </form>
+        <h1 class="text-center" style="color:#e7c892 ;">Iniciar sesion</h1>
+        <hr>
+        <form action="/opciones" method="post">
+            <div class="form-group">
+                
+                <label for="usuario" style="color:#86754c">Ingrese su usuario:</label>
+                <input type="text" class="form-control" id="usuario" name="usuario" 
+                required>
+            </div>
+            <div class="form-group">
+                <label for="contrasena" style="color:#86754c">Ingrese su Contraseña:</label>
+                <input type="password" class="form-control" id="contrasena" name="contrasena"
+                 required>
+            </div>
+            <button style="color:black;background-color: #e7c892; border: #e7c892;" 
+            type="submit" class="btn btn-primary">Ingresar</button>
+        </form>
+    </div>
+</body>
+
+</html>
